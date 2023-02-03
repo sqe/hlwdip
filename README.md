@@ -4,12 +4,12 @@ homelab with dynamic ip
 Exposing self hosted homelab to internet via dynamic IP.
 
 Components :
-Microk8s
-Metallb -L2 networking 
-Cert-manager
-Helm3
-Nginx ingress - deployed with hostNetwork true
-Mastodon for micro blogging 
+* microk8s
+* metallb -L2 networking 
+* cert-manager
+* helm3
+* nginx ingress - deployed with hostNetwork true
+* mastodon for micro blogging 
 
 Current issues, frequent  packet drops when visiting from internet
 
